@@ -1,0 +1,32 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Tron Zero",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1",
+    "core-js": "3.38.1"
+  },
+  "dependencies": {
+    "fracty": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TronZeroJB/forkify.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TronZeroJB/forkify.github.io/issues"
+  },
+  "homepage": "https://github.com/TronZeroJB/forkify.github.io#readme"
+}
